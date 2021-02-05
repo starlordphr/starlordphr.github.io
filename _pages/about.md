@@ -7,8 +7,7 @@ description: Ph.D. Candidate | Computer Science | New York University | Nerd
 profile:
   align: right
   image: profile.png
-  address: >
-    <p>pr1365@nyu.edu <a href="/assets/documents/prashant_resume.pdf">[Resume]</a></p>
+  address: <p><a href="mailto:pr1365@nyu.edu">[Email]</a></p><p><a href="/assets/documents/prashant_resume.pdf">[Resume]</a></p>
 
 news: true
 social: true
