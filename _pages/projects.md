@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This nerd's playground.
+description: A nerd's playground.
 ---
 
 #### At NYU

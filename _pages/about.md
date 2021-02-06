@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Prashant</strong> Rajput
-description: Ph.D. Candidate | Computer Science | New York University | Nerd
+description: Ph.D. Candidate | Computer Science | New York University | Warhammer 40K Enthusiast
 
 profile:
   align: right
