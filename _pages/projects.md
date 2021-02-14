@@ -18,7 +18,7 @@ description: A nerd's playground.
     * Implemented external non-intrusive static analysis malware detection leveraging out-of-the-device virtual to physical address translation with JTAG.
     * Performed static analysis of process text section for extracting entropy values for a 32-byte sliding window, string, and syscall histograms, to be utilized as platform-agnostic features.
     * Achieved 98%, 95% malware detection accuracy for ARM and x86_64 architecture, respectively, with an SVM model.<br/>
-    [[Code](https://github.com/momalab/amaya)] [[Poster](/assets/documents/talks/date_2021.pdf)]
+    [[Code](https://github.com/momalab/amaya)] [[Poster](/assets/documents/talks/date_2021.pdf)] [[Video](https://www.youtube.com/watch?v=yZPgoWMN4AA)]
 
 * **Process-Aware Cyberattacks for Thermal Desalination Plants**<br/>
 *Center for Cyber Security, NYUAD*
