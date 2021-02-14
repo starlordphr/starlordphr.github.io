@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Prashant Rajput | Projects</title>
+  <meta name="description" content="A simple website for a Warhammer 40k Enthusiast.
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Prashant</strong> Rajput
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">About</a>
+
+        <!-- Miscellaneous -->
+        <a class="page-link" href="/#publications">Publications</a>
+        <a class="page-link" href="/projects">Projects</a>
+
+        <!-- CV link -->
+        <a class="page-link" href="/assets/documents/prashant_resume.pdf">Resume</a>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Projects</h1>
+    <h5 class="post-description">A nerd's playground.</h5>
+  </header>
+
+  <article class="post-content Projects clearfix">
+    <h4 id="at-nyu">At NYU</h4>
+
+<ul>
+  <li><strong>Non-Intrusive Malware Detection based on Hardware Root-of-Trust</strong><br />
+<em>MoMA Lab, NYU</em>
+    <ul>
+      <li>Proposed an out-of-the-device non-intrusive malware detection methodology utilizing high and low-level information collected by JTAG using Lauterbach PowerDebug PRO.</li>
+      <li>Demonstrated an accuracy increase to 99.75% by utilizing semantic and microarchitectural information with an SVM model for malware detection.</li>
+      <li>Utilized integrity verification of critical static Linux kernel data structures for rootkit detection and OCSVM trained on static analysis information of shared libraries for user-level rootkits, achieving an accuracy of 96.3%.</li>
+    </ul>
+  </li>
+  <li><strong>Platform Agnostic Remote Static Analysis Malware Detection for ICS</strong><br />
+<em>MoMA Lab, NYU</em>
+    <ul>
+      <li>Implemented external non-intrusive static analysis malware detection leveraging out-of-the-device virtual to physical address translation with JTAG.</li>
+      <li>Performed static analysis of process text section for extracting entropy values for a 32-byte sliding window, string, and syscall histograms, to be utilized as platform-agnostic features.</li>
+      <li>Achieved 98%, 95% malware detection accuracy for ARM and x86_64 architecture, respectively, with an SVM model.<br />
+  [<a href="https://github.com/momalab/amaya">Code</a>] [<a href="/assets/documents/talks/date_2021.pdf">Poster</a>] [<a href="https://www.youtube.com/watch?v=yZPgoWMN4AA">Video</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Process-Aware Cyberattacks for Thermal Desalination Plants</strong><br />
+<em>Center for Cyber Security, NYUAD</em>
+    <ul>
+      <li>Performed process-aware security assessment of desalination plants to identify attack entry points, categorize the attacks, estimate the corresponding financial loss, and mechanical damage.</li>
+      <li>Computed the resultant thermal shocks and pressure surges during water hammer in the piping system on sudden valve closure in MATLAB.</li>
+      <li>Quantified the detrimental effects of water hammering during such attacks in terms of Maximum induced von Mises stresses (340 MPa) and maximum displacement (19.94mm) with ANSYS.<br />
+  [<a href="https://github.com/momalab/msf-thermal-desalination-plant">Code</a>] [<a href="https://dl.acm.org/doi/abs/10.1145/3321705.3329805">Paper</a>] [<a href="/assets/documents/talks/asiaccs_2019.pdf">Presentation</a>]</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="at-ucla">At UCLA</h4>
+
+<ul>
+  <li><strong>Phish Muzzle</strong><br />
+<em>UCLA</em>
+    <ul>
+      <li>Proposed and developed a metadata based approach for defending against email spear phishing attack.</li>
+      <li>Extended Levenshtein Distance and MySQL queries for identifying suspicious emails.</li>
+      <li>Optimized the solution by reducing search space using additional MySQL query.<br />
+  [<a href="https://github.com/starlordphr/PhishArmor">Code</a>] [<a href="https://escholarship.org/content/qt2ks9x26r/qt2ks9x26r.pdf">Thesis</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Automated NFV Deployment</strong><br />
+<em>Wireless Networking Group (WiNG)</em>
+    <ul>
+      <li>Developed a command line tool to automatically deploy OAI components using OpenStack.</li>
+      <li>Implemented automated scripts for OAI configuration based on user specified modular SLA files.</li>
+      <li>Introduced simple interactive functionality to deploy, delete and check status of the spawned VMs.<br />
+  [<a href="https://github.com/starlordphr/Automated_NFV_Deployment">Code</a>]</li>
+    </ul>
+  </li>
+  <li><strong>ASCII Transliteration Format (ATF) Parser</strong><br />
+<em>CDLI</em>
+    <ul>
+      <li>Developed a parser to validate ATF texts using PLY in Python.</li>
+      <li>Enhanced and adopted the parser for online use by connecting PHP front with Python backend.</li>
+      <li>Implemented rules for automatically detecting structural and semantic defects in the texts.<br />
+  [<a href="https://github.com/starlordphr/ATF-Checker">Code</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Secure Code Analysis</strong><br />
+<em>Software Evolution and Analysis Laboratory</em>
+    <ul>
+      <li>Proposed a novel technique to detect violations of secure coding techniques using abstract symbol tree in Java.</li>
+      <li>Extended Google’s Error Prone to analyse the code for security vulnerabilities during compile time.</li>
+      <li>Detected vulnerabilities such as weak random number generation and return value ignored in open source projects.<br />
+  [<a href="https://github.com/starlordphr/Secure_Code_Analysis">Code</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Machine Learning for Cancer Treatment Prediction</strong><br />
+<em>Center for Smart Health</em>
+    <ul>
+      <li>Proposed a novel technique using clinical data for predicting best treatment option for cancer patients.</li>
+      <li>Implemented multiple machine learning techniques using TensorFlow and scikit library in Python.</li>
+      <li>Modified the algorithm to obtain an accuracy of upto 85%.<br />
+  [<a href="https://github.com/starlordphr/Cancer_Treatment_Prediction">Code</a>] [<a href="/assets/documents/projects/cancer-prediction.pdf">Presentation</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Software Development for Personal Cloud File Sync</strong><br />
+<em>Wireless Networking Group (WiNG)</em>
+    <ul>
+      <li>Implemented automated personal cloud system using Python.</li>
+      <li>Improved the software to incorporate SSL protocol for secure transfer of data.</li>
+      <li>Achieved significantly less meta data transfer by using delta based approach.</li>
+      <li>Shifted from master based architecture to semi-master based approach, where data is transferred peer-to-peer and master is used only for meta data transfer.<br />
+  [<a href="https://github.com/cmuthapp/CS219_FileSync">Code</a>] [<a href="/assets/documents/projects/cloud-sync.pdf">Report</a>]</li>
+    </ul>
+  </li>
+  <li><strong>Breaking Location Stream Privacy</strong><br />
+<em>Network Research Lab</em>
+    <ul>
+      <li>Studied different neural network configurations for understanding its effect on location stream data.</li>
+      <li>Applied feed forward neural network for mobility pattern classification on location stream data.</li>
+      <li>Extended the solution to recurrent neural network for minimizing error to a maximum of 1.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="open-source-projects">Open Source Projects</h4>
+
+<ul>
+  <li>Lauterbach Python Library [<a href="https://github.com/starlordphr/lauterbach-python">Code</a>]</li>
+  <li>Development of Android Application for CDLI Lab [<a href="https://github.com/starlordphr/CDLI-Android-Application">Code</a>]</li>
+</ul>
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    <center>
+      &copy; Copyright 2021 Prashant Rajput.
+      Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+      
+    </center>
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-118438361-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>
