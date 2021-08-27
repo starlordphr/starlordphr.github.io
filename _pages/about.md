@@ -2,23 +2,20 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: Ph.D. Candidate | Computer Science | New York University | Warhammer 40K Enthusiast
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile.png
+  address: <p><a href="mailto:pr1365@nyu.edu">[Email]</a></p><p><a href="/assets/documents/prashant_resume.pdf">[Resume]</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Ph.D. candidate in the Computer Science department at New York University, making this world a (cyber) secure place. As a part of the [MoMA Lab](https://wp.nyu.edu/momalab/), headed by [Prof. Michail Maniatakos](https://scholar.google.com/citations?user=aqQ_eLYAAAAJ&hl=en&authuser=1), my research focuses on embedded systems security and industrial control systems security. I extend the traditional malware detection and vulnerability patching approaches to less powerful ICS devices that bring unique challenges.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before embarking on my Ph.D. journey, I was a part of the Bruin family at the University of California Los Angeles, where I completed my Master's Degree in Computer Science under the guidance of [Prof. Rafail Ostrovsky](http://web.cs.ucla.edu/~rafail/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Get in touch with me at [pr1365@nyu.edu](mailto:pr1365@nyu.edu). 😃

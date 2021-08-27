@@ -1,18 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+#"Adams":
+#  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+#    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+Rajput:
+  - firstname: ["Pankaj"]
+    url: https://nyuad.nyu.edu/en/research/postdoctoral-research/researchers/research-bios/pankaj-rajput.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Maniatakos:
+  - firstname: ["Michail"]
+    url: https://nyuad.nyu.edu/en/academics/divisions/engineering/faculty/michail-maniatakos.html
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+Sazos:
+  - firstname: ["Marios"]
+    url: https://sites.nyuad.nyu.edu/ccs-ad/team/marios-sazos/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+Sarkar:
+  - firstname: ["Esha"]
+    url: https://scholar.google.com/citations?user=7P5NqjoAAAAJ&hl=en&oi=sra
+
+Tychalas:
+  - firstname: ["Dimitrios"]
+    url: https://scholar.google.com/citations?user=NrWl0xsAAAAJ&hl=en&oi=sra

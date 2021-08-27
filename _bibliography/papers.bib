@@ -1,72 +1,51 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
+@inproceedings{rajput2021towards,
+  title={Towards Non-intrusive Malware Detection for Industrial Control Systems},
+  author={Rajput, Prashant Hari Narayan and Maniatakos, Michail},
+  booktitle={2021 Design, Automation & Test in Europe Conference & Exhibition (DATE)},
+  url={https://ieeexplore.ieee.org/document/9474121},
+  abstract={The convergence of the Operational Technology (OT) sector with the Internet of Things (IoT) devices has increased cyberattacks on prominent OT devices such as Programmable Logic Controllers (PLCs). These devices have limited computational capabilities, no antivirus support, strict real-time requirements, and often older, unpatched operating systems. The use of traditional malware detection approaches can impact the real-time performance of such devices. Due to these constraints, we propose Amaya, an external malware detection mechanism based on a combination of signature detection and machine learning. This technique employs remote analysis of malware binaries collected from the main memory of the PLC by a non-intrusive method using the Joint Test Action Group (JTAG) port. We evaluate Amaya against in-the-wild malware for ARM and x86 architecture, achieving an accuracy of 98% and 94.7%, respectively. Furthermore, we analyze concept drift, spatial experimental bias, and the effects of downsampling the feature vector to understand the behavior of the model in a real-world setting.},
+  pages={1703--1706},
+  year={2021},
+  organization={IEEE},
+  poster={talks/date_2021.pdf},
+  abbr={date_2021},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{rajput2019jtag,
+title={JTAG: A Multifaceted Tool for Cyber Security},
+author={Rajput, Prashant Hari Narayan and Maniatakos, Michail},
+booktitle={2019 IEEE 25th International Symposium on On-Line Testing and Robust System Design (IOLTS)},
+url={https://ieeexplore.ieee.org/abstract/document/8854430},
+abstract={JTAG is an IEEE standard for testing and debugging electronic circuits. In general, this standard allows serial test instructions and test data to be passed through the input ports. After execution of test instructions, the corresponding serial output can be shifted out. Due to this powerful low level hardware access, JTAG has been explored in literature for performing cyber attacks on devices. On the other hand, its potential has also been realized to defend against attacks at the lowest level. In this paper, we explore JTAG as a tool on both ends of the spectrum.},
+pages={155--158},
+year={2019},
+organization={IEEE},
+slides={talks/iolts_2019.pdf},
+abbr={iolts_2019},
+selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{10.1145/3321705.3329805,
+author = {Rajput, Prashant Hari Narayan and Rajput, Pankaj and Sazos, Marios and Maniatakos, Michail},
+title = {Process-Aware Cyberattacks for Thermal Desalination Plants},
+year = {2019},
+isbn = {9781450367523},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3321705.3329805},
+doi = {10.1145/3321705.3329805},
+abstract = {In 2017, desalination industry was contracted to produce 99.8 million m<sup>3</sup>/d of fresh water globally. In regions with a natural shortage of fresh water, desalination contributes up to 70% of drinking water. While state-of-the-art research has focused on securing the power grid, water treatment plants, and other critical infrastructure, not much attention has been given towards desalination plants. In this work, we perform interdisciplinary cyber threat analysis on a desalination plant model, presenting cyberattacks and analyzing their effect on the plant performance and equipment both from economics and mechanical engineering perspective. Our analysis shows that cyber actors can perform extensive financial damage by affecting the performance of the plant. We also perform control volume analysis and finite element analysis studies to investigate the possibility of Stuxnet-like attacks with the potential to cause mechanical damage and equipment failure.},
+booktitle = {Proceedings of the 2019 ACM Asia Conference on Computer and Communications Security},
+pages = {441–452},
+numpages = {12},
+keywords = {industrial control systems, cyber security, finite element analysis, process aware attacks, desalination},
+location = {Auckland, New Zealand},
+series = {Asia CCS '19},
+slides={talks/asiaccs_2019.pdf},
+abbr = {asiaccs_2019},
+selected={true}
 }

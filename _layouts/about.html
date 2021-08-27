@@ -29,13 +29,19 @@ layout: default
       {{ content }}
     </div>
 
+    <hr>
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
 
+    <hr>
+
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
+
+    <hr>
 
     {% if page.social %}
     <div class="social">

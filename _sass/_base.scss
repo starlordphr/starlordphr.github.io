@@ -190,9 +190,13 @@ blockquote {
 
 // News
 
-.news table td {
+.news table {
+  .date { width: 19%; }
+  .announcement { width: 81%; }
+  td {
   font-size: 1rem;
   color: var(--global-text-color);
+  }
 }
 
 .news table th {
