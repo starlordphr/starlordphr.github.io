@@ -6,6 +6,14 @@ description: A nerd's playground.
 nav: true
 ---
 
+#### At Facebook
+* **Improving Disassembly Database Support in ThreatData**<br/>
+*Facebook, Menlo Park, CA*
+    * Created EntDisassemblerDatabase, a schema to represent disassembly databases and associated it with existing ThreatData graph.
+    * Modified ThreatData UI to upload disassembly databases using FB upload service and preview related intel source reports.
+    * Designed and implemented TDSync, an IDA plugin to enable annotation sync between local instances and Disassembly UI.
+    * Reduced redundant data in a GraphQL mutation by utilizing diffs between consecutive annotation states.
+
 #### At NYU
 
 * **Non-Intrusive Malware Detection based on Hardware Root-of-Trust**<br/>
