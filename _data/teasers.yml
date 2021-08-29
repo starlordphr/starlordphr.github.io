@@ -1,8 +1,8 @@
-date_2021:
-  img: teasers/date_2021.png
+DATE 2021:
+  url: https://ieeexplore.ieee.org/document/9474121
 
-asiaccs_2019:
-  img: teasers/asiaccs_2019.png
+ASIACCS 2019:
+  url: https://doi.org/10.1145/3321705.3329805
 
-iolts_2019:
-  img: teasers/iolts_2019.png
+IOLTS 2019:
+  url: https://ieeexplore.ieee.org/abstract/document/8854430
