@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Ph.D. Candidate | Computer Science | New York University | Warhammer 40K Enthusiast
+description: Ph.D. Candidate | Computer Science | New York University | Otaku
 
 profile:
   align: right

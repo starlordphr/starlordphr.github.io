@@ -16,18 +16,25 @@ nav: true
 
 #### At NYU
 
+* **Automated Vulnerability Localization and Non-Intrusive Hotpatching in ICS**<br/>
+*MoMA Lab, NYU*
+    * Developed ICSPatch to localize vulnerabilities in control logic using Data Dependence Graph, non-intrusively hotpatch it using an LKM patcher and tested on a synthetic dataset with 24 vulnerable control applications.
+    * Successfully localized and hotpatched OOB write/read, OS command injection, and improper input validation, incurring latency of 222ms and 332ms for patch generation and deployment, respectively.<br/>
+    [[Code](https://github.com/momalab/ICSPatch)] [[Paper](https://arxiv.org/abs/2212.04229)]
+
 * **Non-Intrusive Malware Detection based on Hardware Root-of-Trust**<br/>
 *MoMA Lab, NYU*
     * Proposed an out-of-the-device non-intrusive malware detection methodology utilizing high and low-level information collected by JTAG using Lauterbach PowerDebug PRO.
     * Demonstrated an accuracy increase to 99.75% by utilizing semantic and microarchitectural information with an SVM model for malware detection.
-    * Utilized integrity verification of critical static Linux kernel data structures for rootkit detection and OCSVM trained on static analysis information of shared libraries for user-level rootkits, achieving an accuracy of 96.3%.
+    * Utilized integrity verification of critical static Linux kernel data structures for rootkit detection and OCSVM trained on static analysis information of shared libraries for user-level rootkits, achieving an accuracy of 96.3%.<br/>
+    [[Code](https://github.com/momalab/orris)] [[Paper](https://ieeexplore.ieee.org/document/9581272)] [[Presentation](/assets/documents/talks/EuroS&P_2021.pdf)] [[Video](https://www.youtube.com/watch?v=G7pNAAnnJr0)]
 
 * **Platform Agnostic Remote Static Analysis Malware Detection for ICS**<br/>
 *MoMA Lab, NYU*
     * Implemented external non-intrusive static analysis malware detection leveraging out-of-the-device virtual to physical address translation with JTAG.
     * Performed static analysis of process text section for extracting entropy values for a 32-byte sliding window, string, and syscall histograms, to be utilized as platform-agnostic features.
     * Achieved 98%, 95% malware detection accuracy for ARM and x86_64 architecture, respectively, with an SVM model.<br/>
-    [[Code](https://github.com/momalab/amaya)] [[Poster](/assets/documents/talks/date_2021.pdf)] [[Video](https://www.youtube.com/watch?v=yZPgoWMN4AA)]
+    [[Code](https://github.com/momalab/amaya)] [[Paper](https://ieeexplore.ieee.org/document/9474121)] [[Poster](/assets/documents/talks/date_2021.pdf)] [[Video](https://www.youtube.com/watch?v=yZPgoWMN4AA)]
 
 * **Process-Aware Cyberattacks for Thermal Desalination Plants**<br/>
 *Center for Cyber Security, NYUAD*

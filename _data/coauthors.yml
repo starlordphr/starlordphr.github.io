@@ -21,3 +21,15 @@ Sarkar:
 Tychalas:
   - firstname: ["Dimitrios"]
     url: https://scholar.google.com/citations?user=NrWl0xsAAAAJ&hl=en&oi=sra
+
+Doumanidis:
+  - firstname: ["Constantine"]
+    url: https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/modern-microprocessor-architectures-lab/constantine-doumanidis.html
+
+Bytes:
+  - firstname: ["Andrei"]
+    url: https://djinni.co/r/107422-cto-at-silence-laboratories/
+
+Zhou:
+  - firstname: ["Jianying"]
+    url: https://istd.sutd.edu.sg/people/faculty/jianying-zhou

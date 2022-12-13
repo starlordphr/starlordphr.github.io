@@ -8,7 +8,7 @@ middle_name:
 last_name: Rajput
 email: pr1365@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple website for a Warhammer 40k Enthusiast.
+  A simple website for an Otaku.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -99,7 +99,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+news_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
