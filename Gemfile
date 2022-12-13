@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-include-cache'
+    gem 'faraday-retry'
 end
